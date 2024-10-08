@@ -1,0 +1,6 @@
+#ifndef SET_CLASS_H
+#define SET_CLASS_H
+
+// PART OF STUBS, NOT USED IN IMPLEMENTATION
+
+#endif 

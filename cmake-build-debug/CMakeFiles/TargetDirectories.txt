@@ -1,0 +1,3 @@
+/Users/jamesdonckels/CLionProjects/cs8_final_project/cmake-build-debug/CMakeFiles/cs8_final_project_test.dir
+/Users/jamesdonckels/CLionProjects/cs8_final_project/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jamesdonckels/CLionProjects/cs8_final_project/cmake-build-debug/CMakeFiles/rebuild_cache.dir

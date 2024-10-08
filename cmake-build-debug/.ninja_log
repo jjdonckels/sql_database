@@ -1,0 +1,17 @@
+# ninja log v5
+0	785	1728361101105462726	CMakeFiles/cs8_final_project.dir/main.cpp.o	9d924aa75a4b52e3
+1	306	1728361138602282073	CMakeFiles/cs8_final_project_test.dir/includes/shunting_yard/shunting_yard.cpp.o	a9395c1ff1addcc1
+1	738	1728361139032094893	CMakeFiles/cs8_final_project_test.dir/includes/parser/sql_parser_functions.cpp.o	2cda739d5c8a790b
+1	858	1728361139154072471	CMakeFiles/cs8_final_project_test.dir/includes/binary_files/utilities.cpp.o	95d8bcb2fdbf07e3
+0	868	1728361139167442364	CMakeFiles/cs8_final_project_test.dir/includes/binary_files/file_record.cpp.o	69f52010bb2bd5fb
+0	909	1728361139207674626	CMakeFiles/cs8_final_project_test.dir/main.cpp.o	42ffe2d3a772fa51
+909	932	1728361139234271869	CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/ftokenize.cpp.o	565f67d740aed03
+1	966	1728361139262500198	CMakeFiles/cs8_final_project_test.dir/includes/parser/parser.cpp.o	5985df5d4254ecd4
+306	1049	1728361139345707350	CMakeFiles/cs8_final_project_test.dir/includes/sql/sql.cpp.o	d67e1dff857d5021
+740	1120	1728361139418787447	CMakeFiles/cs8_final_project_test.dir/includes/stub/stub.cpp.o	d84bbf44f1369aa4
+869	1286	1728361139584229292	CMakeFiles/cs8_final_project_test.dir/includes/token/token.cpp.o	48e047bc06e0091d
+932	1346	1728361139643975246	CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/state_machine_functions.cpp.o	aa3887ccf31aa3ae
+966	1351	1728361139651115422	CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/tokenizer_token.cpp.o	94921a06df890536
+1049	1422	1728361139722745809	CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/stokenize.cpp.o	7d444cc072796ffa
+858	1505	1728361139803616165	CMakeFiles/cs8_final_project_test.dir/includes/table/table.cpp.o	2d0391cc8f3f6c96
+1505	1661	1728361139959895914	cs8_final_project_test	52e6ef684fb5a944

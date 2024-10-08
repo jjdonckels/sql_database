@@ -1,0 +1,217 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: cs8_final_project_test
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/jamesdonckels/CLionProjects/cs8_final_project/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target cs8_final_project_test
+
+
+#############################################
+# Order-only phony target for cs8_final_project_test
+
+build cmake_object_order_depends_target_cs8_final_project_test: phony || CMakeFiles/cs8_final_project_test.dir
+
+build CMakeFiles/cs8_final_project_test.dir/main.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/main.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir
+
+build CMakeFiles/cs8_final_project_test.dir/includes/binary_files/file_record.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/binary_files/file_record.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/binary_files/file_record.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/binary_files
+
+build CMakeFiles/cs8_final_project_test.dir/includes/binary_files/utilities.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/binary_files/utilities.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/binary_files/utilities.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/binary_files
+
+build CMakeFiles/cs8_final_project_test.dir/includes/parser/parser.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/parser/parser.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/parser/parser.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/parser
+
+build CMakeFiles/cs8_final_project_test.dir/includes/parser/sql_parser_functions.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/parser/sql_parser_functions.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/parser/sql_parser_functions.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/parser
+
+build CMakeFiles/cs8_final_project_test.dir/includes/shunting_yard/shunting_yard.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/shunting_yard/shunting_yard.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/shunting_yard/shunting_yard.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/shunting_yard
+
+build CMakeFiles/cs8_final_project_test.dir/includes/sql/sql.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/sql/sql.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/sql/sql.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/sql
+
+build CMakeFiles/cs8_final_project_test.dir/includes/stub/stub.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/stub/stub.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/stub/stub.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/stub
+
+build CMakeFiles/cs8_final_project_test.dir/includes/table/table.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/table/table.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/table/table.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/table
+
+build CMakeFiles/cs8_final_project_test.dir/includes/token/token.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/token/token.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/token/token.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/token
+
+build CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/ftokenize.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/tokenizer/ftokenize.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/ftokenize.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/tokenizer
+
+build CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/state_machine_functions.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/tokenizer/state_machine_functions.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/state_machine_functions.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/tokenizer
+
+build CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/stokenize.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/tokenizer/stokenize.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/stokenize.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/tokenizer
+
+build CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/tokenizer_token.cpp.o: CXX_COMPILER__cs8_final_project_test_Debug /Users/jamesdonckels/CLionProjects/cs8_final_project/includes/tokenizer/tokenizer_token.cpp || cmake_object_order_depends_target_cs8_final_project_test
+  DEP_FILE = CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/tokenizer_token.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs8_final_project_test.dir/includes/tokenizer
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cs8_final_project_test
+
+
+#############################################
+# Link the executable cs8_final_project_test
+
+build cs8_final_project_test: CXX_EXECUTABLE_LINKER__cs8_final_project_test_Debug CMakeFiles/cs8_final_project_test.dir/main.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/binary_files/file_record.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/binary_files/utilities.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/parser/parser.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/parser/sql_parser_functions.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/shunting_yard/shunting_yard.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/sql/sql.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/stub/stub.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/table/table.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/token/token.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/ftokenize.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/state_machine_functions.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/stokenize.cpp.o CMakeFiles/cs8_final_project_test.dir/includes/tokenizer/tokenizer_token.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.2.sdk
+  OBJECT_DIR = CMakeFiles/cs8_final_project_test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cs8_final_project_test
+  TARGET_PDB = cs8_final_project_test.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/jamesdonckels/CLionProjects/cs8_final_project/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/jamesdonckels/CLionProjects/cs8_final_project/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/jamesdonckels/CLionProjects/cs8_final_project -B/Users/jamesdonckels/CLionProjects/cs8_final_project/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/jamesdonckels/CLionProjects/cs8_final_project/cmake-build-debug
+
+build all: phony cs8_final_project_test
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
